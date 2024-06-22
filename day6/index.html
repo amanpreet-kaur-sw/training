@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDF Graph and Table</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>RDF Graph and Table</h1>
+    </header>
+
+    <section id="rdfGraph">
+        <h2>RDF Graph</h2>
+        <div class="graph">
+            <div class="node" id="homepage">myntra:homepage</div>
+            <div class="edge" id="hasSection1">myntra:hasSection</div>
+            <div class="node" id="banner">myntra:banner</div>
+            <div class="edge" id="hasSection2">myntra:hasSection</div>
+            <div class="node" id="productTable">myntra:productTable</div>
+            <div class="edge" id="hasSection3">myntra:hasSection</div>
+            <div class="node" id="graph">myntra:graph</div>
+        </div>
+    </section>
+
+    <section id="rdfTable">
+        <h2>RDF Table</h2>
+        <table>
+            <tr>
+                <th>Subject</th>
+                <th>Predicate</th>
+                <th>Object</th>
+            </tr>
+            <tr>
+                <td>myntra:homepage</td>
+                <td>myntra:hasSection</td>
+                <td>myntra:banner</td>
+            </tr>
+            <tr>
+                <td>myntra:homepage</td>
+                <td>myntra:hasSection</td>
+                <td>myntra:productTable</td>
+            </tr>
+            <tr>
+                <td>myntra:homepage</td>
+                <td>myntra:hasSection</td>
+                <td>myntra:graph</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 RDF Representation. All rights reserved.</p>
+    </footer>
+</body>
+</html>
