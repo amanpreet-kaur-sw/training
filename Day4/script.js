@@ -12,10 +12,10 @@ const myntraData = {
 function populateContent() {
     // Company description in header
     document.getElementById('company-description').textContent = myntraData.companyDescription;
-    
+
     // About Myntra section
     document.getElementById('about-myntra').textContent = myntraData.aboutMyntra;
-    
+
     // Image gallery section
     const imageGallery = document.getElementById('image-gallery');
     myntraData.images.forEach(image => {
@@ -24,13 +24,10 @@ function populateContent() {
         imgElement.src = image.src;
         imgElement.alt = image.alt;
         imgElement.classList.add('gallery-image');
-        
         const figcaptionElement = document.createElement('figcaption');
         figcaptionElement.textContent = image.alt; // Caption text
-        
         figureElement.appendChild(imgElement);
         figureElement.appendChild(figcaptionElement);
-        
         imageGallery.appendChild(figureElement);
     });
 }
