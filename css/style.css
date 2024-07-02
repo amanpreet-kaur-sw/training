@@ -3,11 +3,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(to bottom,rgb(221, 51, 201),rgb(84, 179, 216));
+    background-image: url('/bg.png') no-repeat center center fixed;
+    background-size: cover;
 }
 header {
     background: linear-gradient(to bottom, rgb(236, 29, 109),rgb(69, 119, 234));
-
+    background-size: cover;
     text-align: center;
     padding: 20px;
 }
@@ -21,13 +22,13 @@ header .logo {
 header h1 {
     margin: 10px 0 5px;
     font-size: 24px;
-    color: floralwhite;
+    color:white;
 }
 
 header p, header h2 {
     margin: 5px 0;
     font-size: 16px;
-    color:#f9f7f7;
+    color:white;
 }
 
 nav {
@@ -70,7 +71,7 @@ main {
 }
 
 .gallery-image {
-    width: 80%;
+    width: 50%;
     max-width: 800px;
     height: auto;
     margin: 20px 0;
