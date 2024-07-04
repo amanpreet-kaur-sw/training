@@ -4,7 +4,8 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: hwb(306 35% 9%); /* Background color for the page */
+    background: linear-gradient(135deg, #150362, #f30511);
+    background-size: cover; /* Background color for the page */
     margin: 0;
 }
 .pdf-container {
