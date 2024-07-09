@@ -1,25 +1,25 @@
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  }
-  html{
-      scroll-behavior: smooth;
-  }
-  body{
-      display: flex;
-      flex-direction: column;
-      height: auto;
-      width: 100%;
-  }
-  
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
   /* styling homepage */
-  #home{
-          height:100vh;
-          background-image:linear-gradient(110deg ,yellow 65%, rgb(179, 232, 161) 35%);
-          display: flex;
-      flex-direction: column;
-  }
+#home{
+        height:100vh;
+        background-image:linear-gradient(110deg ,yellow 65%, rgb(179, 232, 161) 35%);
+        display: flex;
+        flex-direction: column;
+}
   #home .header{
       display: flex;
       height: 80px;
